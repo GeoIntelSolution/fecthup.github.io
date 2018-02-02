@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>This a start page ,everything begin here</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .navbar-default
+        {
+            margin: 0;
+            padding: 0;
+            font-size: 1.2em;
+            border-radius: 0;
+            background-color: #4Ecdc4;
+            padding: 1% auto;
+
+        }
+
+        .navbar-brand
+        {
+            float: left;
+            min-height:55px;
+            padding: 5px 15px 5px;
+        }
+
+        .navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:focus,
+        .navbar-default .navbar-nav .active a:hover {
+            background-color: #4Ecdc4;
+            color:#0c0d0f;
+        }
+
+        .navbar-default .navbar-nav li a {
+            color:#8a8d91;
+        }
+        
+        table tr td
+        {
+        	border:1px solid #ccc;
+        }	
+        
+        .completed
+        {
+        	color:#000;
+        }
+        .uncompleted
+        {
+        	color：red;
+        }
+        
+        .damn
+        {
+        	color:#4ecdc4;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+           <!--toggle responsive-->
+           <button class="navbar-toggle" data-target="#menu" data-toggle="collapse">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand">
+               <img src="img/crow.png">
+           </a>
+        </div>
+        <div id="menu" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right" >
+                <li class="active"><a href="templates/website.html" >制作任务网站</a></li>
+                <li><a href="templates/codeforces.html">Codeforces</a></li>
+                <li><a href="templates/Complier.html">Compiler</a></li>
+                <li><a href="templates/GIS.html">GIS底层开发教程</a></li>
+                <li><a href="templates/GDAL.html">GDAL</a></li>
+                <li><a href="templates/POSTGIS.html">POSTGIS</a></li>
+                <li><a href="templates/Python.html">Python</a></li>
+            </ul>
+        </div>
+
+    </nav>
+		<div class="container">
+			<div class="row">
+				<div class="card">
+					
+					
+					<h3>Now what i know</h3>
+					<ul style="color:red">
+						<li>First,I need complete all common alg in c++,that's emergency</li>
+						<li>Next,I need to reduce intracties which may distract me from  the test</li>
+						<li>Then after 12/23 ,I should begin with the codeforces</li>
+						<li><p>Here is the process</p>
+							<ul>
+								<li>
+									Math
+									<table class="table">
+										<tr>
+											<td>I have reached</td>
+											<td>Prepared to</td>
+											<td>damn not</td>
+										</tr>
+										<tr>
+											<td class="completed">定积分(瑕积分没有复习)，二重积分，三重积分，曲线积分，曲面积分，格林公式</td>
+										  <td class="unompleted">高斯公式，方程的解 </td>
+										  <td class="damn">微分方程，中值定理，级数收敛</td>
+										</tr>
+									</table>
+								</li>
+								<li>
+									CS
+									<ul>
+										<li>
+											C++ Alg
+											<ul  id="CSList" >
+												<li>List</li>
+												<li>Queue & Stack1</li>
+												<li>Tree
+													<ul>
+														<li><a href="./Tree.html">Tree</a></li>
+														<li><a href="./Bitree.html">BiTree<a/></li>
+														<li>Traversal Bitree:<a href="./PreOrder.html">PreOrder</a>,
+														<a href="./InOrder.html">InOrder</a>,
+														<a href="./PostOrder.html"> PostOrder<a>
+														</li>
+														<li class="damn">ThreadTree</li>
+														<li class="damn">SpecialTree:ZKW-Tree,B-Tree,BSTTree,AVLTree,Red-Black Tree</li>
+														<li class="text-info">Exercise</li>
+														<li class="text-info">I need to finish tree chapter this following three days ,and go to stack and queue</li>
+														
+													</ul>	
+												</li>
+												<li>Graph</li>
+												<li>Search</li>
+												<li>Sort</li>												
+											</ul>
+										</li>
+										<li>
+											CC	
+										</li>
+										<li>
+											OS	
+										</li>
+										<li>
+											NetWork
+										</li>
+									</ul>
+								</li>
+								<li>
+									English
+								</li>
+								<li>
+									Polotics
+								</li>
+								
+								
+							</ul>						
+						</li>
+					</ul>					
+					<hr>
+					<h1>To do List</h1>
+					<ul>
+						<li>Calculate Geometry</li>
+						<li>Complier Pricinple</li>
+						<li>Signal Processing</li>
+						<li>Complex Calculus</li>
+						<li>Introduce to Postgis</li>	
+					</ul>
+					<h2>more easy job</h2>
+					<ul>
+						<li>React</li>
+						<li>WebGL</li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+
+</body>
+</html>
